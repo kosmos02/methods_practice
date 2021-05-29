@@ -127,6 +127,11 @@ const sortedMass = characters.sort( (a, b) => b.mass - a.mass)
 
 console.log(sortedMass)
 // Sort by height
+
+const sortHeight = characters.sort( (a, b) => b.height - a.height)
+
+console.log(sortHeight)
+
 // Sort by gender
 
 const sortGender = characters.sort( (a, b) => a.gender.localeCompare(b.gender))
