@@ -167,6 +167,11 @@ console.log(oneMale)
 const oneBlueEyes= characters.some(character => character.eye_color === 'blue')
 console.log(oneBlueEyes)
 // Is there at least one character taller than 200?
+
+const oneTallerThan200 = characters.some(character => character.height > 200)
+
+console.log(oneTallerThan200)
+
 // Is there at least one character that has mass less than 50?
 const massLess50 = characters.some(character => character.mass < 50)
 console.log(massLess50)
