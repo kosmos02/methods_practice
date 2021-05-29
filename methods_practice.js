@@ -71,6 +71,11 @@ const allNames = characters.map( character => {
 console.log(allNames)
 
 // Get an array of all heights
+
+const allHeights = characters.map(character => character.height)
+
+console.log(allHeights)
+
 // Get an array of objects with just name and height properties
 
 const nameAndHeight = characters.map( character => {
