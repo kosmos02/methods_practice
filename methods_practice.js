@@ -110,6 +110,10 @@ console.log(maleCharacters)
 
 // Get all female characters
 
+const femaleCharacters = characters.filter( character => character.gender === 'female')
+
+console.log(femaleCharacters)
+
 // SORT
 // Sort by name
 
