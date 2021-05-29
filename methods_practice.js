@@ -63,6 +63,13 @@ console.log(charactersByEyeColor)
 
 // MAP
 // Get an array of all names
+
+const allNames = characters.map( character => {
+    return character.name
+})
+
+console.log(allNames)
+
 // Get an array of all heights
 // Get an array of objects with just name and height properties
 
